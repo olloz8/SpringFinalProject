@@ -1,0 +1,18 @@
+-- auto-generated definition
+create table FREEBOARD
+(
+    USERID        VARCHAR2(100),
+    TITLE         VARCHAR2(200),
+    BOARDCONTENT  VARCHAR2(200),
+    NOWDATE       DATE,
+    BOARDCATEGORY VARCHAR2(30),
+    BOARDID       NUMBER generated as identity
+)
+/
+create table USERS
+(
+    USERID		VARCHAR2(255),
+    USERNAME	VARCHAR2(200),
+    PASSWORD	VARCHAR2(200)
+)
+/

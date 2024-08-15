@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.a-css2{
+	    text-decoration: none;
+        color:#fff;
+}
+.a-css{
+        
+        text-decoration: none;
+        color:#000000;
+}
+.button {
+	
+	padding: 8px 20px;
+	font-size: 16px;
+	color: white;
+	background-color: black;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	float:right;
+}
+
+.table {
+	text-align: center;
+}
+
+body {
+	margin-top:100px;
+	display: flex;
+	justify-content: center; /* 수평 가운데 정렬 */
+	align-items: center;
+}
+
+.board_css {
+	width: 864px;
+}

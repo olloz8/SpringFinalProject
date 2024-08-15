@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.formwidth {
+	width: 500px;
+}
+
+body {
+	display: flex;
+	justify-content: center; /* 수평 가운데 정렬 */
+	align-items: center;
+}
+
+.formposition {
+	margin-top: 100px;
+}
+
+.btn-position {
+	float: right;
+}
+
+.marginButton {
+	margin-right: 15px;
+}
